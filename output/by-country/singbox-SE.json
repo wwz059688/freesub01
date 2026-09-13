@@ -14,7 +14,7 @@
         "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -81,7 +81,7 @@
       "tls": {
         "enabled": true,
         "server_name": "cf2.rumedia-cdn.com",
-        "insecure": true
+        "insecure": false
       }
     },
     {

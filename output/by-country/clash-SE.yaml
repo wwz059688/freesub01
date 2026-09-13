@@ -14,7 +14,7 @@ proxies:
   reality-opts:
     public-key: wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
@@ -51,7 +51,7 @@ proxies:
   type: hysteria2
   password: 29ffde49-e1d6-4dcd-a135-352920f9f0b8
   sni: cf2.rumedia-cdn.com
-  skip-cert-verify: true
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
