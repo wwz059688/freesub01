@@ -4,40 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.67.203.158",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
-        "server_name": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR",
-        "headers": {
-          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
-      "server": "104.21.16.109",
-      "server_port": 443,
-      "uuid": "cc08d2d0-8a7a-4469-81d2-c43704451271",
-      "tls": {
-        "enabled": true,
-        "server_name": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev",
+        "server_name": "ssl.fastly.com",
         "insecure": false,
         "alpn": [
           "http/1.1"
@@ -49,9 +23,41 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/6871nrbnl9WsdAiOUInt",
         "headers": {
-          "Host": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev"
+          "Host": "mitivpn---ss--s---mitivpn-22e.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "server": "194.87.59.104",
+      "server_port": 2085,
+      "uuid": "7b07d862-b698-47c1-884b-3e7dd6c8b862",
+      "transport": {
+        "type": "grpc",
+        "service_name": "vless"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇿 捷克 (Czech) 03 - xiaohe",
+      "server": "31.59.121.156",
+      "server_port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -61,7 +67,8 @@
       "outbounds": [
         "auto",
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
       ]
     },
     {
@@ -69,7 +76,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 捷克 (Czech) 01 - xiaohe",
-        "🇨🇿 捷克 (Czech) 02 - xiaohe"
+        "🇨🇿 捷克 (Czech) 02 - xiaohe",
+        "🇨🇿 捷克 (Czech) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
