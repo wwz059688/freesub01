@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.14.103",
+      "server": "172.67.156.222",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "3-m16.ChIAn-mAI-6.kDnS.Fr",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,21 +20,21 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "3-m16.ChIAn-Mai-6.kdNs.Fr"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "104.18.15.103",
+      "server": "104.21.37.55",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "6-m16.cHiaN-MAI-8.kDnS.Fr",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -43,9 +43,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/JRr6VGcSLFc034DC6sDbwyWJLbB",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "6-M16.chian-mAI-8.KdNs.fR"
         }
       }
     },
