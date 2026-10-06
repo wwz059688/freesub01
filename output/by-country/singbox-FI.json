@@ -12,31 +12,35 @@
       "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
     {
-      "type": "vmess",
+      "type": "hysteria2",
       "tag": "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-      "server": "finla2.povrak.ir",
-      "server_port": 58179,
-      "uuid": "ce0bcb75-baa7-41a7-833e-eb54a8f6a08e",
-      "security": "auto"
+      "server": "144.31.212.253",
+      "server_port": 443,
+      "password": "cf83b611-6cba-4535-adcb-8da06c6a9146",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps155-edge.kermemehori.ru",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-      "server": "13.143.129.45",
-      "server_port": 443,
-      "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
+      "server": "78.17.209.157",
+      "server_port": 8443,
+      "uuid": "be2568ed-9b3f-4071-86aa-444891fe2887",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "addons.mozilla.org",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "CsoM3VUYii1XxgxnrT4VEe-EALgn60k6BaKMJVP9qAM",
-          "short_id": "7dd08043"
+          "public_key": "V_AnDtQn2g3kTFu19MUBCwA0LzmYeU68FlnIHcvlADg",
+          "short_id": ""
         }
       }
     },

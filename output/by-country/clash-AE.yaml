@@ -15,17 +15,6 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
   server: 157.228.155.185
   port: 443
   udp: true
@@ -38,6 +27,15 @@ proxies:
     short-id: 5ea112e8
   servername: addons.mozilla.org
   client-fingerprint: randomized
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+  server: uae.unixzone.us
+  port: 22573
+  udp: true
+  type: vless
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
