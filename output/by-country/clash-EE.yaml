@@ -60,7 +60,7 @@ proxies:
   tls: true
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: edge
 - name: 🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe
   server: 194.26.141.148
   port: 8443
