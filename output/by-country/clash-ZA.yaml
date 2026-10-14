@@ -22,7 +22,7 @@ proxies:
     public-key: dcox8XXfkOCmKn3kgrloj6wY5o1_0brJOi2mczYmAT4
     short-id: 5ced03e42cc31aab
   servername: www.cloudflare.com
-  client-fingerprint: safari
+  client-fingerprint: chrome
 - name: 🇿🇦 南非 (South Africa) 03 - xiaohe
   server: 34.35.186.228
   port: 443
