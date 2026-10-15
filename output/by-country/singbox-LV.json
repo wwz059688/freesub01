@@ -4,25 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe",
-      "server": "195.123.213.28",
-      "server_port": 443,
-      "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
-          "short_id": "5c256336e3b673fa"
-        }
-      }
+      "server": "185.135.86.175",
+      "server_port": 9082,
+      "method": "aes-256-cfb",
+      "password": "45xgMgm386pjWjTx"
     },
     {
       "type": "vless",
@@ -36,7 +23,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -69,21 +56,21 @@
     {
       "type": "vless",
       "tag": "🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe",
-      "server": "31.57.106.241",
+      "server": "195.123.213.28",
       "server_port": 443,
-      "uuid": "a4801105-c0c7-4cab-87c6-f257ff2afc09",
+      "uuid": "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.lmt.lv",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4SJB--DChFNhmOUz0-BZK2dS3GhZ1yZwMVIhmpobB0o",
-          "short_id": "44f7c5615039ae1b"
+          "public_key": "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo",
+          "short_id": "5c256336e3b673fa"
         }
       }
     },
