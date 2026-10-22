@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -35,7 +35,7 @@
         "server_name": "in1.vkusnews.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
@@ -52,20 +52,9 @@
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "transport": {
         "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
+        "path": "/vless",
         "headers": {
-          "Host": "in-152.67.8.205-0250"
+          "Host": "13.140.56.100"
         }
       }
     },
@@ -76,8 +65,7 @@
         "auto",
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 03 - xiaohe"
       ]
     },
     {
@@ -86,8 +74,7 @@
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

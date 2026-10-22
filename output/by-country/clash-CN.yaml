@@ -4,29 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇸 西班牙 (Spain) 01 - xiaohe
-  server: 45.198.54.249
+- name: 🇨🇳 CN 01 - xiaohe
+  server: vpn.cintaku.qzz.io
   port: 443
   udp: true
   type: vless
-  uuid: 8d4c35bd-d04a-43fe-8390-47133ab90dbf
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
   tls: true
-  reality-opts:
-    public-key: rHCPMrwRVCwxdwv4YOCso7zlYTPoX8w7x1f5Yqv2bGM
-    short-id: b73ab21227d33c1e
-  servername: 6a4a06t.es3.h1clayd.click
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: false
   client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /vlessws
+    headers:
+      Host: vpn.cintaku.qzz.io
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  - 🇨🇳 CN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇸 西班牙 (Spain) 01 - xiaohe
+  - 🇨🇳 CN 01 - xiaohe
 rules:
 - MATCH,PROXIES
