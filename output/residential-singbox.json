@@ -4,23 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "render.com",
-      "server_port": 2087,
-      "password": "a63adead-1c8d-448c-bf5d-08e7002f126b",
-      "tls": {
-        "enabled": true,
-        "server_name": "wild-hat-ad48.gfzzxoofxxvjfd.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "wild-hat-ad48.gfzzxoofxxvjfd.workers.dev"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
     },
     {
       "type": "shadowsocks",
@@ -42,7 +31,7 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "android"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
@@ -58,7 +47,7 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇮🇳 印度 (India) 03 (家宽) - xiaohe"
       ]
@@ -67,7 +56,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇮🇳 印度 (India) 03 (家宽) - xiaohe"
       ],

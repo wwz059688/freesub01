@@ -4,17 +4,13 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: render.com
-  port: 2087
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: trojan
-  password: a63adead-1c8d-448c-bf5d-08e7002f126b
-  sni: wild-hat-ad48.gfzzxoofxxvjfd.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   server: p141.panda001.net
   port: 4652
@@ -31,7 +27,7 @@ proxies:
   tls: true
   servername: app-6ada5023.deploy.meerasolution.com
   skip-cert-verify: false
-  client-fingerprint: android
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
@@ -42,7 +38,7 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇮🇳 印度 (India) 03 (家宽) - xiaohe
 - name: AUTO
@@ -50,7 +46,7 @@ proxy-groups:
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
   - 🇮🇳 印度 (India) 03 (家宽) - xiaohe
 rules:

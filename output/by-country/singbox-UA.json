@@ -4,21 +4,21 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "render.com",
-      "server_port": 2087,
-      "password": "a63adead-1c8d-448c-bf5d-08e7002f126b",
+      "type": "vless",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+      "server": "216.24.57.225",
+      "server_port": 2083,
+      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
       "tls": {
         "enabled": true,
-        "server_name": "wild-hat-ad48.gfzzxoofxxvjfd.workers.dev",
+        "server_name": "pol.netvia.ir",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/wss",
         "headers": {
-          "Host": "wild-hat-ad48.gfzzxoofxxvjfd.workers.dev"
+          "Host": "pol.netvia.ir"
         }
       }
     },
@@ -27,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
