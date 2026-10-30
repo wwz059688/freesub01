@@ -70,27 +70,13 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-      "server": "cd0.bmi.ir.kolman.com.de",
-      "server_port": 80,
-      "uuid": "2da85937-93d9-4509-8491-63b1921cf447",
-      "security": "auto",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/f9bGbG7ZNy5L0tzXKZNxSX4q",
-        "host": "bmi.ir.draft.co.impossible.com.ir.bmi.ir.com.iran.ir6.ifilmino.com"
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ]
     },
     {
@@ -99,8 +85,7 @@
       "outbounds": [
         "🇫🇮 芬兰 (Finland) 01 - xiaohe",
         "🇫🇮 芬兰 (Finland) 02 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 03 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 04 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
