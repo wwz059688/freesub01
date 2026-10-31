@@ -4,32 +4,32 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.10.185
+- name: 🇮🇳 印度 (India) 01 (家宽) - xiaohe
+  server: 122.176.216.52
   port: 443
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
   tls: true
-  servername: jp3.yohototo.top
+  servername: app-6ada5023.deploy.meerasolution.com
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
     headers:
-      Host: jp3.yohototo.top
+      Host: app-6ada5023.deploy.meerasolution.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇮🇳 印度 (India) 01 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🌐 其他地区 (Other) 01 - xiaohe
+  - 🇮🇳 印度 (India) 01 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
