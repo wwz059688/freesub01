@@ -26,16 +26,6 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: ''
 - name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: 87.242.119.253
-  port: 443
-  udp: true
-  type: vless
-  uuid: aba9cdd4-026c-0001-87a9-9b3e5f24dd82
-  tls: true
-  servername: hvtlr-ru-47sb.fade.mom
-  skip-cert-verify: false
-  client-fingerprint: edge
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
   server: 79.182.39.37
   port: 27591
   udp: true
@@ -47,6 +37,15 @@ proxies:
     short-id: 6c5c7900406a1ae7
   servername: www.samsung.com
   client-fingerprint: firefox
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: 2.26.6.1
+  port: 2087
+  udp: true
+  type: vless
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  tls: true
+  servername: 2.26.6.1
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
