@@ -16,7 +16,7 @@ proxies:
     headers:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 31.76.227.57
+  server: app-mi-26.spbstudentlife.com
   port: 443
   udp: true
   type: vless
