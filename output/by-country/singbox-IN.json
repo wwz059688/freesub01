@@ -14,7 +14,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -24,24 +24,15 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-      "flow": "xtls-rprx-vision",
+      "server": "144.24.109.215",
+      "server_port": 51000,
+      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
-        }
+        "server_name": "cn.cremedelamer.com",
+        "insecure": true
       }
     },
     {
@@ -67,44 +58,6 @@
     {
       "type": "vless",
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "server": "13.140.56.100",
-      "server_port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "server": "in002.zestapp778.com",
-      "server_port": 42733,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "in002.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
-      "server": "144.24.109.215",
-      "server_port": 51000,
-      "password": "d105c6ae-621b-47c1-b85b-075fd6a39aca",
-      "tls": {
-        "enabled": true,
-        "server_name": "cn.cremedelamer.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
       "server": "122.176.216.52",
       "server_port": 443,
       "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
@@ -126,6 +79,32 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "server": "13.140.56.100",
+      "server_port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "server": "in002.zestapp778.com",
+      "server_port": 42733,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "in002.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
@@ -135,8 +114,7 @@
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe",
         "🇮🇳 印度 (India) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe",
-        "🇮🇳 印度 (India) 07 - xiaohe"
+        "🇮🇳 印度 (India) 06 - xiaohe"
       ]
     },
     {
@@ -148,8 +126,7 @@
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe",
         "🇮🇳 印度 (India) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe",
-        "🇮🇳 印度 (India) 07 - xiaohe"
+        "🇮🇳 印度 (India) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
