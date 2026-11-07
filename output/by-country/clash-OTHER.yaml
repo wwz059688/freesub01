@@ -5,21 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.21.7.133
-  port: 443
+  server: n04.jinggai.online
+  port: 8443
   udp: true
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   tls: true
-  servername: vmess.lbw666.dpdns.org
+  servername: n04.jinggai.online
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
+    path: /nvl-n04-ws/e0577fe8fd7c8823
 proxy-groups:
 - name: PROXIES
   type: select

@@ -4,23 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.21.7.133",
-      "server_port": 443,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "security": "auto",
+      "server": "n04.jinggai.online",
+      "server_port": 8443,
+      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
       "tls": {
         "enabled": true,
-        "server_name": "vmess.lbw666.dpdns.org",
+        "server_name": "n04.jinggai.online",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
+        "path": "/nvl-n04-ws/e0577fe8fd7c8823"
       }
     },
     {
