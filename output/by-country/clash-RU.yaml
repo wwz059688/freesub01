@@ -5,19 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 200.102.183.50
-  port: 443
-  udp: true
-  type: vless
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
-  tls: true
-  servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: qi8ws15c7jv5q2fa
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 200.102.183.57
   port: 80
   udp: true
@@ -30,6 +17,17 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: qi8ws15c7jv5q2fa
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 5.59.204.81
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
+  flow: xtls-rprx-vision
+  tls: true
+  servername: id-6af3f40b.adhil.uk
+  skip-cert-verify: false
+  client-fingerprint: edge
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 185.22.153.117
   port: 18443
