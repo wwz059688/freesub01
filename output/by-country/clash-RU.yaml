@@ -16,13 +16,13 @@ proxies:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
     short-id: 6ba85179e30d4fc2
   servername: apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 48.103.133.47
+  server: 37.235.247.81
   port: 8443
   udp: true
   type: vless
-  uuid: 2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25
+  uuid: 2ae0670d-0bdf-409e-9a55-4e970252d378
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -39,7 +39,7 @@ proxies:
   sni: srv-17e124.21freedom.net
   skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 200.169.179.233
+  server: 201.51.12.98
   port: 443
   udp: true
   type: vless
@@ -52,70 +52,31 @@ proxies:
   grpc-opts:
     grpc-service-name: mobile.api.Event
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
-  server: 136.148.83.69
-  port: 443
-  udp: true
-  type: vless
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
-  tls: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-  skip-cert-verify: false
-  client-fingerprint: qq
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: 122.8.93.4
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 4fabeed0-790e-9724-8f12-138ed31ac60e
-  tls: true
-  reality-opts:
-    public-key: -GbQJg3bnEGEVFjVaRRu01cgF1f0K_maI4d5MWtMb28
-  servername: www.epson.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: 147.45.175.81
+  server: xssite.webredirect.org
   port: 443
   udp: true
   type: vless
   uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   tls: true
-  servername: xsru2.freeddns.org
+  servername: xssite.webredirect.org
   skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  server: 201.24.122.189
-  port: 443
+  client-fingerprint: random
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
+  server: 48.103.133.47
+  port: 8443
   udp: true
   type: vless
-  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  uuid: 2ed34e7c-45c5-4e0e-bcab-42fe99a7bd25
+  flow: xtls-rprx-vision
   tls: true
-  servername: sequoia.merlano.monster
-  skip-cert-verify: false
-  client-fingerprint: android
-  network: ws
-  ws-opts:
-    path: /api/de1/stream
-- name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
-  server: 201.24.122.189
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5ef70d03-e0fc-462c-9a04-1441f604fbfb
-  tls: true
-  servername: willowcroft.moltex.click
-  skip-cert-verify: false
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  servername: apple.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: api/de1/stream
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,9 +88,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -141,8 +99,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
 rules:
 - MATCH,PROXIES
