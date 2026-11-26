@@ -5,48 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 104.16.10.104
+  server: fr-free.fastestrelay.com
   port: 443
   udp: true
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 43BCAE0A-10A6-4003-8615-BD510F4215BA
   tls: true
-  servername: jp3.yohototo.top
+  servername: fr-free.fastestrelay.com
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /700gvl-us-free
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: chatgpt.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30
-  tls: true
-  servername: sinavm2.soft10.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm2.soft10.ir
+      Host: fr-free.fastestrelay.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🌐 其他地区 (Other) 01 - xiaohe
-  - 🌐 其他地区 (Other) 02 - xiaohe
 rules:
 - MATCH,PROXIES
